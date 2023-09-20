@@ -31,10 +31,11 @@ public class User {
 
     public User(UserDTO data) {
         this.firstName = data.firstName();
-        this.lastName = data.lastname();
+        this.lastName = data.lastName();
         this.balance = data.balance();
         this.email = data.email();
         this.password = data.password();
+        this.document = data.document();
         this.userType = data.userType();
     }
 }
